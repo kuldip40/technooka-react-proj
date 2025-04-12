@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/technooka-react-proj/static/css/main.d99b4bae.css",
+    "main.js": "/technooka-react-proj/static/js/main.8314dc48.js",
+    "static/media/user.svg": "/technooka-react-proj/static/media/user.ffa87fef80e9ec3732ea830c7178facd.svg",
+    "static/media/bos.svg": "/technooka-react-proj/static/media/bos.95f492cfdf608711a34a642162d2962f.svg",
+    "static/media/program.svg": "/technooka-react-proj/static/media/program.e432e402d1291ef635297181bae3a809.svg",
+    "index.html": "/technooka-react-proj/index.html",
+    "static/media/college-yellow.svg": "/technooka-react-proj/static/media/college-yellow.6b1fd73b2c693a1a1ea75c1c901ae069.svg",
+    "static/media/fees_creation.svg": "/technooka-react-proj/static/media/fees_creation.e6f86cbe3a9a3e32686922fdb6d09f30.svg",
+    "static/media/college.svg": "/technooka-react-proj/static/media/college.56b485e63c44d0a0a9cae78009b43af6.svg",
+    "static/media/search.svg": "/technooka-react-proj/static/media/search.ea3b7cbad6a7b09bdcfa84971bfbebdd.svg",
+    "static/media/vector.svg": "/technooka-react-proj/static/media/vector.50715c3971dca73664d3b1442023074f.svg",
+    "static/media/dashboard.svg": "/technooka-react-proj/static/media/dashboard.e089d5f915e5c9fddc3d54e72a7dbf0a.svg",
+    "static/media/help.svg": "/technooka-react-proj/static/media/help.796ebbbfdde81a6b881b3916efc1af4c.svg",
+    "static/media/notifications.svg": "/technooka-react-proj/static/media/notifications.bd738173c46dcc69ec6628e66c29d610.svg",
+    "static/media/hamburger.svg": "/technooka-react-proj/static/media/hamburger.f422f0c5db9db9f66a36c36b287a842c.svg",
+    "main.d99b4bae.css.map": "/technooka-react-proj/static/css/main.d99b4bae.css.map",
+    "main.8314dc48.js.map": "/technooka-react-proj/static/js/main.8314dc48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d99b4bae.css",
+    "static/js/main.8314dc48.js"
+  ]
+}
