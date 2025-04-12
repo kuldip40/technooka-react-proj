@@ -1,0 +1,30 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0084ca;
+  --default-border-radius: 8px;
+}
+
+ul {
+  text-decoration: none;
+}
+
+a {
+  all: unset;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

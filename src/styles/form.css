@@ -1,0 +1,30 @@
+.form .field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form .field label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 8px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: var(--primary-color);
+}
+
+.form .field input,
+.form .field select {
+  width: 100%;
+  border-radius: var(--default-border-radius);
+  border: 1px solid #dcdcdc;
+  padding: 12.46px 19px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #666666;
+}

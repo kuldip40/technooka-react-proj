@@ -1,0 +1,32 @@
+.sidebar {
+  min-width: 250px;
+  border-right: 1px solid #dcdcdc;
+  padding-top: 84px;
+}
+
+.menu .item {
+  padding: 0 12px;
+}
+
+.menu .item a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 12px;
+}
+
+.menu .item a span {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  color: #898989;
+}
+
+.menu .item.active a {
+  border-radius: 12px;
+  background-color: rgb(0, 132, 202, 0.12);
+}
+
+.menu .item.active a span {
+  color: var(--primary-color);
+}

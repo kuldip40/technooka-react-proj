@@ -1,0 +1,234 @@
+.fees-creation {
+  margin: 16px;
+  padding: 26px;
+  border-radius: var(--default-border-radius);
+  box-shadow: 0px 4px 25px 0px #00000033;
+}
+
+.fees-creation h1 {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: var(--primary-color);
+  margin-bottom: 26px;
+}
+
+.fees-creation .line {
+  border-top: 2px dotted #ffe09b;
+  margin-bottom: 26px;
+}
+
+.fees-creation h2 {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--primary-color);
+  margin-bottom: 26px;
+}
+
+.programs {
+  display: flex;
+  gap: 44px;
+  margin-bottom: 72px;
+}
+
+.programs .program {
+  width: 255px;
+  padding: 25px 31px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 15px 0px #0000001a;
+  border-radius: var(--default-border-radius);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.programs .program .college-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff5d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs .program .college-name {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #4f6892;
+}
+
+.programs .program .status {
+  font-family: Poppins;
+  position: absolute;
+  width: 75px;
+  height: 21px;
+  top: 8.65px;
+  left: 169px;
+  border-radius: 2px;
+  background: #ffeec7;
+  border: 0.5px solid #ffb200;
+  box-shadow: 0px 4px 20px 0px #ffb2001a;
+
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 2.5%;
+  text-align: center;
+  color: #ffb200;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.programs .program .circle {
+  width: 140px;
+  height: 70px;
+  top: -17.65px;
+  left: 115px;
+  position: absolute;
+  background: linear-gradient(180deg, #ffffff 7.54%, #1662a6 72.91%);
+  opacity: 8%;
+  border-radius: 50%;
+}
+
+.programs .program.completed {
+  background: rgba(0, 132, 202, 0.1);
+}
+
+.programs .program.completed .college-icon {
+  background-color: #3384b9;
+}
+
+.semesters {
+  display: flex;
+  gap: 29px;
+  margin-bottom: 36px;
+}
+
+.semesters .sem {
+  border-radius: var(--default-border-radius);
+  padding: 8px 12.4px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #8ab8d7;
+}
+
+.semesters .sem.active {
+  color: #fff7e6;
+  background-color: var(--primary-color);
+}
+
+.verticle-line {
+  width: 1px;
+  height: 320px;
+  border: none;
+  background-color: #ffb200;
+  margin: auto;
+}
+
+.total-fees-amount .total-fees-amount-heading {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: #1662a6;
+}
+
+.total-fees-amount-card {
+  background-color: #e6f0f6;
+  border-radius: 28px;
+  padding: 15px;
+  position: relative;
+}
+
+.total-fees-amount-card table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.total-fees-amount-card table thead {
+  background: #ffffff;
+}
+.total-fees-amount-card table th {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: -2%;
+}
+
+.total-fees-amount-card table th,
+.total-fees-amount-card table td {
+  padding: 8px;
+}
+.total-fees-amount-card table td {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.total-fees-amount-card .total-fees-footer {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-top: 124px;
+  margin-left: 40px;
+}
+
+.total-fees-amount-card .total-fees-footer .total-label {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: #1662a6;
+  white-space: nowrap;
+}
+
+.total-fees-amount-card .total-fees-footer .total-value {
+  width: 158;
+  height: 44;
+  top: 1217px;
+  left: 1203px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 13px 45px 13px 55px;
+
+  font-family: Poppins;
+  font-weight: 275;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.total-fees-amount-card .vector-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.total-fees-amount-card .vector-bottom-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+}
