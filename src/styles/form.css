@@ -1,6 +1,13 @@
+.form .fields {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
 .form .field {
-  width: 100%;
+  width: auto;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .form .field label {
@@ -27,4 +34,37 @@
   line-height: 100%;
   letter-spacing: 0%;
   color: #666666;
+}
+
+.form .action-btn {
+  padding: 4px 8px;
+  border-radius: var(--default-border-radius);
+  color: #fff7e6;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+}
+
+.form .cta {
+  margin-top: 24px;
+  display: block;
+  padding: 8px 12px;
+  border-radius: var(--default-border-radius);
+  color: #fff7e6;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+}
+
+.form .error-message {
+  color: red;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  margin-top: 4px;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
 }

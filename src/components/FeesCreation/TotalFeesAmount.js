@@ -1,25 +1,17 @@
 import React from "react";
 import { ReactComponent as Vector } from "../../assets/icons/vector.svg";
-
-const totalFeesAmount = [
-  {
-    id: 1,
-    name: "Tution Fee",
-    amount: "30,000",
-  },
-  {
-    id: 2,
-    name: "Lab Fee",
-    amount: "10,000",
-  },
-  {
-    id: 3,
-    name: "Sports Fee",
-    amount: "30,000",
-  },
-];
+import { useFormContext } from "react-hook-form";
+import { FEES_OPTIONS } from "../../constants/fees-creation";
 
 const TotalFeesAmount = () => {
+  const { watch } = useFormContext();
+  const totalFeesAmount = watch("fields");
+
+  const totalValue = totalFeesAmount.reduce(
+    (prevVal, currentVal) => prevVal + Number(currentVal.amount),
+    0
+  );
+
   return (
     <div className="total-fees-amount">
       <p className="total-fees-amount-heading">Total Fees Amount</p>
@@ -33,19 +25,31 @@ const TotalFeesAmount = () => {
             </tr>
           </thead>
           <tbody>
-            {totalFeesAmount.map((obj) => (
-              <tr key={obj.id}>
-                <td>{obj.id}</td>
-                <td>{obj.name}</td>
-                <td>{obj.amount}</td>
-              </tr>
-            ))}
+            {totalFeesAmount.map((obj, index) => {
+              return (
+                <tr key={index}>
+                  <td>{index + 1}</td>
+                  <td>
+                    {FEES_OPTIONS.find((f) => f.value === obj.feesName)?.text ||
+                      "-"}
+                  </td>
+                  <td>{obj.amount}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
 
         <div className="total-fees-footer">
           <p className="total-label">Total Fees Amount</p>
-          <input type="text" placeholder="NUM Total" className="total-value" />
+          <input
+            type="text"
+            placeholder="NUM Total"
+            className="total-value"
+            value={totalValue}
+            onChange={() => {}}
+            disabled
+          />
         </div>
 
         <Vector className="vector-top-right" />

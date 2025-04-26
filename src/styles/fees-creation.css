@@ -130,6 +130,12 @@
   color: #8ab8d7;
 }
 
+.semesters .sem:hover {
+  cursor: pointer;
+  color: #fff7e6;
+  background-color: var(--primary-color);
+}
+
 .semesters .sem.active {
   color: #fff7e6;
   background-color: var(--primary-color);
